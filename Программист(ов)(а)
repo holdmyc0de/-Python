@@ -1,0 +1,10 @@
+n=int(input())
+a,b,c=str('программист'), str ('программистов'), str ('программиста')
+if n!=11 and (not n%100==11) and n%10==1:
+  print (n, a)
+elif n==11 and n%100==11 or n%100==12 or n%100==13 or n%100==14:
+  print(n, b)
+elif n%10==2 or n%10==3 or n%10==4:
+  print(n, c)
+else:
+  print(n, b)
