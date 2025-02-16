@@ -1,0 +1,7 @@
+a=0.0000000000000000001
+b=0
+while a!=0:
+  a=int(input())
+  b=b+a
+  if a==0:
+    print (b)
