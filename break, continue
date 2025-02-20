@@ -1,0 +1,7 @@
+n=int(input())
+while True:
+  if 10<=n<=100:
+    print(n)
+  elif n>=100:
+    break
+  n=int(input())
