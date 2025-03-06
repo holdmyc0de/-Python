@@ -1,0 +1,7 @@
+genome=input()
+s=len(genome)
+cg=0
+for nucl in genome:
+  if nucl.count('c') or nucl.count('g') or nucl.count('C') or nucl.count('G'):
+    cg+=1
+print((cg/s)*100)
