@@ -1,0 +1,16 @@
+vvod=input()
+kol=len(vvod)-1
+schetchik=1
+if len(vvod)==1:
+  print (vvod+'1', end='')
+  exit()
+for i in range (kol):
+  if vvod[i]==vvod[i+1]:
+    schetchik+=1
+  if vvod[i]!=vvod[i+1]:
+    print(vvod[i]+str(schetchik), end='')
+    schetchik=1
+if vvod[-1]==vvod[-2]:
+  print(vvod[i]+str(schetchik), end='')
+else:
+  print(vvod[-1]+'1')
